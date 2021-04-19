@@ -3,7 +3,7 @@ m=$(date +%m)
 d=$(date +%d)
 H=$(date +%H)
 M=$(date +%M)
-s=$(date +%S)
+S=$(date +%S)
 git add .
 git commit -m "$d/$m/$d-$H:$M:$S 
 Signed-off-by: LeeBin 
