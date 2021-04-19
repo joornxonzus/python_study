@@ -6,7 +6,7 @@ M=$(date +%M)
 S=$(date +%S)
 git add .
 git commit -m "
-$d/$m/$d-$H:$M:$S 
+$y/$m/$d-$H:$M:$S 
 Signed-off-by: LeeBin 
 <hest0001@163.com>"
 git push origin master
