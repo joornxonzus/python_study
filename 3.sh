@@ -1,6 +1,11 @@
-day=$(date +%m%d)
-tim=$(date +%H%M)
+y=$(date +%y)
+m=$(date +%m)
+d=$(date +%d)
+H=$(date +%H)
+M=$(date +%M)
+s=$(date +%S)
 git add .
-git commit -m "$day/$tim: 
-Signed-off-by: LeeBin <hest0001@163.com>"
+git commit -m "$d/$m/$d-$H:$M:$S 
+Signed-off-by: LeeBin 
+<hest0001@163.com>"
 git push origin master
