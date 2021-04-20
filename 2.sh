@@ -7,7 +7,7 @@ S=$(date +%S)
 git add .
 git commit -m "
 $y/$m/$d-$H:$M:$S 
-py基础知识
+更新python的基础知识，最基本结束
 Signed-off-by: LeeBin 
 <hest0001@163.com>"
 git push origin master
