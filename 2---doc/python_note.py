@@ -403,8 +403,23 @@ python idle的基本使用
 			if not line:
 				break
 			pass
-
-		
+		-----------------------------
+		f = open('d:\\txt.txt', 'r')
+		line = f.readline()
+		while line:
+			print(line, end='')
+			line = f.readline()
+		f.close()
+		-----------------------------
+		f = open('d:\\txt.txt', 'r')
+		lines = f.readlines()
+		for line in lines:
+			# print(line, end='')
+			split = line.split(" ")
+			print(split[0], end='')
+			print("\t", end='')
+			print(split[1], end='')
+		-----------------------------
 	格式化
 		'Hi, %s, you have $%d.' % ('Michael', 1000000)
 		'Hello, {0}, 成绩提升了 {1:.1f}%'.format('小明', 17.125)
